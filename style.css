@@ -1,0 +1,82 @@
+*{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #222;
+}
+
+h2 {
+  color: #666;
+  font-family: monospace;
+  text-align: center;
+}
+
+.background {
+  margin: 0 !important;
+  padding: 0 !important;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.lava, .actor {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #e55;
+}
+
+.wall {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #444;
+  border: solid 3px #333;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.actor {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: absolute;
+}
+
+.coin {
+  background: #e2e838;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 50%;
+}
+
+.player {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #335699;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.lost .player {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #a04040;
+}
+
+.won .player {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: green;
+}
+
+.game {
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
